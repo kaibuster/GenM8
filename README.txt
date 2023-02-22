@@ -55,6 +55,13 @@ SEGA 1650 PIN             Arduino Leonardo
 If you get lost wiring this up, I referred to this url throughout the course of this project and recommend 
 you do the same. https://pinoutguide.com/Game/genesiscontroller_pinout.shtml
 
+side note for anyone looking to modify this code for use with a different retro microcontroller. Once you 
+have all your buttons successfully sending on/off messages in serial monitor I suggest running through a 
+desktop midi monitor (I use MidiView its free) to see what note data your controllers sending (C-1, D-1, etc).
+MidiView will show the buttons on the 1650 triggering the C-2 ascending scale rather than the C-1, in 
+reference to the first data sheet. Despite this the code works as intended. 
+https://hautetechnique.com/midi/midiview/
+
 happy tracking
 
 _kaibuster 
