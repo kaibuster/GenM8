@@ -1,6 +1,6 @@
 This code was written so that the Sega Genesis controller model no. 1650 could act as an external 
 microcontroller for the dirtywave m8 tracker. The script will not map the controller to other midi 
-gear because the array you'll find in lines 45 & 46 points the arduino to read midi data per button 
+gear because the array you'll find in lines 47 & 48 points the arduino to read midi data per button 
 in the C-1 through G-1 which control the m8s button map. 
 
 NOTE-NUMBER  CONTROL          M8 NOTE (ch 10)
