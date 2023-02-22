@@ -14,7 +14,7 @@ NOTE-NUMBER  CONTROL          M8 NOTE (ch 10)
 6             Up                F#1
 7             Down              G-1
 
-Shouts out to robherc KV5ROB and MaderDash for the mentorship and knowledge, this code wouldn't be
+Shouts out to robhercKV5ROB and MaderDash for the mentorship and knowledge, this code wouldn't be
 possible without them and m8 users Okyeron & Avrilcadabra for researching/providing the data sheet 
 above. 
   
