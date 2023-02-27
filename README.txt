@@ -1,4 +1,4 @@
-Getting started:
+Getting Started: 
 
 This code was written so that the Sega Genesis controller model no. 1650 could act as an external 
 microcontroller for the dirtywave m8 tracker. The script will not map the controller to other midi 
