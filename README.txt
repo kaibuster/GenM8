@@ -37,7 +37,7 @@ this script and would allow for more midi/m8 combinations in the future.
 This script/project is confirmed to work on the arduino leonardo but might be possible on other
 smaller arduino USBMIDI complient boards. 
 
-Setting up:
+Setting It Up:
 
 Once the script is uploaded to your arduino and the 1650 controller wired to the arduino using the 
 pin sheet below this paragraph, set your MIDI SETTINGS on your m8 to the default settings as noted 
