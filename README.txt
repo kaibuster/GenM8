@@ -60,7 +60,11 @@ SEGA 1650 PIN             Arduino Leonardo
 -------------             ----------------
 
 If you get lost wiring this up, I referred to this url throughout the course of this project and recommend 
-you do the same. https://pinoutguide.com/Game/genesiscontroller_pinout.shtml
+you do the same. https://pinoutguide.com/Game/genesiscontroller_pinout.shtml Dsub 9 pin connectors go for
+under $6 or so from Digikey and a few more for shipping. I plan to use this controller and arduino live 
+in the future so I ordered an enclosure I liked, drilled an opening in the side for the dsub 9 pin, and
+soldered to the correct ports in the arduino. I decided to not print a custom pcb and just run straight 
+to the board.   
 
 side note: for anyone looking to modify this code for use with a different retro microcontroller. Once you 
 have all your buttons successfully sending on/off messages in serial monitor I suggest running through a 
