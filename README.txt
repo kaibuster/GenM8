@@ -34,8 +34,6 @@ is also a usb device. Both usb devices can't communicate with one another unless
 midi host. I highly recommend the Retrokits RK006 USB MIDI/GATE which is guaranteed to work with 
 this script and would allow for more midi/m8 combinations in the future. 
 
-https://user-images.githubusercontent.com/65822292/221446554-f8648fd9-9552-4d84-a9a5-51ddcc39b68d.jpg
-
 This script/project is confirmed to work on the arduino leonardo but might be possible on other
 smaller arduino USBMIDI complient boards. 
 
