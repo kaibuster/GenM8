@@ -1,3 +1,5 @@
+Getting started:
+
 This code was written so that the Sega Genesis controller model no. 1650 could act as an external 
 microcontroller for the dirtywave m8 tracker. The script will not map the controller to other midi 
 gear, nor will it work with other Sega controller types because the arrays throughout point the 
@@ -35,11 +37,14 @@ this script and would allow for more midi/m8 combinations in the future.
 This script/project is confirmed to work on the arduino leonardo but might be possible on other
 smaller arduino USBMIDI complient boards. 
 
-Once the script is uploaded to your arduino and the 1650 controller wired to the arduino, set your MIDI 
-SETTINGS on your m8 to the default settings as noted in the dirtywave m8 manual. You must ensure that 
-"CONTROL MAP CHAN" is set to "10" to match the channel assigned in the script otherwise the controller 
-will cease communication. (see bottom for more details on this) If you've followed all steps and still
-aren't getting a response on m8, double check your routing options on your RK006. 
+Setting up:
+
+Once the script is uploaded to your arduino and the 1650 controller wired to the arduino using the 
+pin sheet below this paragraph, set your MIDI SETTINGS on your m8 to the default settings as noted 
+in the dirtywave m8 manual. You must ensure that "CONTROL MAP CHAN" is set to "10" to match the 
+channel assigned in the script otherwise the controller will cease communication. (see bottom for 
+more details on this) If you've followed all steps and still aren't getting a response on m8, 
+double check your routing options on your RK006. 
 
 SEGA 1650 PIN             Arduino Leonardo
 -------------             ----------------
