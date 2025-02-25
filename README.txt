@@ -71,12 +71,10 @@ have all your buttons successfully sending on/off messages in serial monitor I s
 desktop midi monitor (I use MidiView its free) to see what note data your controllers sending (C-1, D-1, etc).
 MidiView will show the buttons on the 1650 triggering the C-2 ascending scale rather than the C-1, in 
 reference to the first data sheet. You might also notice on line 24 the channel is set to "9" however the
-default "CONTROL MAP CHAN" for m8 is "10" - I do not know why the data does not match, but I'm suspecting it 
-might have something to do with how m8 responds to midi data through the MIDIUSB library. Assign the sega 
-controller whatever channel you desire, I have it set to the default so each time you load a new song, 
-depending on your own midi settings default menu, the controller will immediately work. Despite this the 
-code works as intended and I haven't bothered to investigate further. https://hautetechnique.com/midi/midiview/
-
+default "CONTROL MAP CHAN" for m8 is "10" - The reason for this is that the base code counts "0" as the first 
+digit so therefore "9" would equal "10" for the Dirtywave M8 which does not consider "0" to be the first midi
+channel. Assign the sega controller whatever channel you desire, I have it set to the default so each time you 
+load a new song, depending on your own midi settings default menu, the controller will immediately work. 
 happy tracking (=^o^)/
 
 _kaibuster 
